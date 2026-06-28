@@ -1,0 +1,3 @@
+- name: This is the common Hello tasks
+  debug:
+    msg: "Hello, from common tasks execution"

@@ -1,0 +1,8 @@
+- name: Demo role
+  debug:
+    msg: "Hi, I am from Demo role tasks"
+# this shoul load another role called common
+- name: import common role
+  import_role:
+    name: common
+    tasks_from: hello.yaml
