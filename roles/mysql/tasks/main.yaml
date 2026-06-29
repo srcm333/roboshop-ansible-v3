@@ -13,7 +13,7 @@
     name:
     - boto3
     - botocore
-    executable: pipe3.9
+    executable: pip3.9
 - name: start and enable mysql server
   service:
     state: started
