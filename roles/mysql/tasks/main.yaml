@@ -8,6 +8,12 @@
   package:
     name: mysql-server
     state: present
+- name: install boto3 botocore
+  pip:
+    name:
+    - boto3
+    - botocore
+    executable: pipe3.9S
 - name: start and enable mysql server
   service:
     state: started
